@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - export JAVA_HOME=''
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
 artifacts:
